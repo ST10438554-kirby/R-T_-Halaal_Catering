@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rt_background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="28dp">
+
+        <!-- Logo placeholder -->
+
+        <TextView
+            android:id="@+id/tvLogo"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/logo_background"
+            android:gravity="center"
+            android:text="R&amp;T"
+            android:textColor="@color/rt_text_white"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <!-- App name -->
+
+        <TextView
+            android:id="@+id/tvAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="R&amp;T HALAAL CATERING"
+            android:textColor="@color/rt_primary"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <!-- Tagline -->
+
+        <TextView
+            android:id="@+id/tvTagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Delicious food for every occasion"
+            android:textColor="@color/rt_secondary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <!-- Welcome message -->
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Plan your catering, choose your favourites and place your order for your special event."
+            android:textColor="@color/rt_text_secondary"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:lineSpacingExtra="5dp" />
+
+        <!-- Get Started button -->
+
+        <Button
+            android:id="@+id/btnGetStarted"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="35dp"
+            android:backgroundTint="@color/rt_primary"
+            android:text="GET STARTED"
+            android:textColor="@color/rt_text_white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Existing account -->
+
+        <TextView
+            android:id="@+id/tvAlreadyAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Already have an account?"
+            android:textColor="@color/rt_text_secondary"
+            android:textSize="14sp" />
+
+        <!-- Login -->
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:text="LOGIN"
+            android:textColor="@color/rt_primary"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+</ScrollView>

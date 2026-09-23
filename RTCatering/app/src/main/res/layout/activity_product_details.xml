@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rt_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <!-- Back -->
+
+        <TextView
+            android:id="@+id/tvBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="← Back to Menu"
+            android:textColor="@color/rt_primary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <!-- Product category -->
+
+        <TextView
+            android:id="@+id/tvCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Sweet Treats"
+            android:textColor="@color/rt_secondary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <!-- Product name -->
+
+        <TextView
+            android:id="@+id/tvProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Milk Tart"
+            android:textColor="@color/rt_primary"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <!-- Description -->
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Product description"
+            android:textColor="@color/rt_text_secondary"
+            android:textSize="16sp"
+            android:lineSpacingExtra="5dp" />
+
+        <!-- Price -->
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="R 5.00"
+            android:textColor="@color/rt_primary"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <!-- Minimum -->
+
+        <TextView
+            android:id="@+id/tvMinimum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Minimum quantity: 20"
+            android:textColor="@color/rt_text_secondary"
+            android:textSize="14sp" />
+
+        <!-- Quantity label -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Quantity"
+            android:textColor="@color/rt_text_primary"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <!-- Quantity -->
+
+        <EditText
+            android:id="@+id/etQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:hint="Enter quantity"
+            android:inputType="number"
+            android:padding="15dp"
+            android:text="20"
+            android:backgroundTint="@color/rt_border" />
+
+        <!-- Add to cart -->
+
+        <Button
+            android:id="@+id/btnAddToCart"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="@color/rt_primary"
+            android:text="ADD TO CART"
+            android:textColor="@color/rt_text_white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>
