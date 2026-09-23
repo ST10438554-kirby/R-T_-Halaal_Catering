@@ -1,7 +1,7 @@
 # R-T_-Halaal_Catering
 # R&T Halaal Catering Android Application
 Github link : https://github.com/ST10438554-kirby/R-T_-Halaal_Catering 
-Youtube link :
+Youtube link : https://youtube.com/@randthalaalcatering?si=uQ2jTZS9T-B6nfdY 
 # Code Overview
 The R&T Halaal Catering Android application is a prototype that lets users browse catering items, register, log in, place catering orders, and see their past orders. Kotlin and Android Studio are being used to create the application. 
 With distinct screens in charge of various application functions, the program has an organized activity-based design.
